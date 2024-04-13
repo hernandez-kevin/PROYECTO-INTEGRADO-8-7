@@ -1,7 +1,7 @@
 .contenedor{
 
 width: 100%;
-height: 5600px;
+height: 5700px;
 background-color: aquamarine;
 display: flex;
 flex-direction: column;
@@ -50,7 +50,7 @@ flex-direction: column;
 .tecnologia{
 
     width: 100%;
-    height: 2900px;
+    height: 2950px;
     background-color: rgb(243, 81, 181);
     
 }
