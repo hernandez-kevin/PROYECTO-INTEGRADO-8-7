@@ -1,7 +1,7 @@
 .contenedor{
 
 width: 100%;
-height: 7000px;
+height: 5855px;
 background-color: aquamarine;
 display: flex;
 flex-direction: column;
@@ -31,7 +31,7 @@ flex-direction: column;
     width: 100%;
     height: 400px;
     background-color: rgb(245, 21, 21);
-    
+    text-align: center;
 }
 .quimica{
 
@@ -50,7 +50,7 @@ flex-direction: column;
 .tecnologia{
 
     width: 100%;
-    height: 400px;
+    height: 1250px;
     background-color: rgb(243, 81, 181);
     
 }
