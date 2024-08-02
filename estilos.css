@@ -2,10 +2,10 @@
 
 .texto{
    
-    font-size: 40px;
+    font-size: 20px;
     padding-top: 140px;
     text-align: justify;
-    color: rgb(244, 237, 237);
+    color: rgba(12, 0, 0, 0.582);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .principal{
@@ -13,29 +13,51 @@
      
 }
 body{
-    background-image: url("fondoop.jpg");
-   
-
+    background-image: url("ocean.jpg");
+    background-repeat: no-repeat; 
 }
-.titulo{
-font-size: 60px;
-color: black;
+.titulo1{
+font-size: 65px;
+color: rgb(6, 0, 17);
 text-align: center;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
 
 .img1{
-    height: 193px;
-    width: 300px;
-    background-image: url("piedra.jpeg");
-    background-repeat: no-repeat;
-    float: right;
+height: 300px;
+width: 300px;
+background-image: url(ocean.jpg);
+float: left;
+
+
 }
+
+.subtitulo{
+font-size: 30px;
+color: black;
+text-align: left;
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
 .img2{
-    height: 500px;
-    width: 500px;
-    background-image: url("medellin.jpeg");
+    height: 200px;
+    width: 300px;
+    background-image: url(triangulo\ de\ pauling.jpg);
+    float: none;
     background-repeat: no-repeat;
-    float: left;
-}
+    
+    
+    }
+
+.img3{
+        height: 300px;
+        width: 500px;
+        background-image: url(distribucion\ nitrogeno1.jpg);
+        float: none;
+        background-repeat: no-repeat;
+        
+        
+        }
+    
