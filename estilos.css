@@ -60,4 +60,14 @@ font-family: Georgia, 'Times New Roman', Times, serif;
         
         
         }
+
+        .img4{
+            height: 250px;
+            width: 500px;
+            background-image: url(configuracion\ electronica\ caja\ o\ celda.jpg);
+            float: none;
+            background-repeat: no-repeat;
+            
+            
+            }
     
