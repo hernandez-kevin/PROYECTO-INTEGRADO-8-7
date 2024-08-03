@@ -131,95 +131,213 @@ font-family: Georgia, 'Times New Roman', Times, serif;
                                     
         }    
                                     
-                                    .img11{
-                                        height: 320px;
-                                        width: 500px;
-                                        background-image: url(dormir\ bieen.jpg);
-                                        float: none;
-                                             background-repeat: no-repeat;
+.img11{
+            height: 320px;
+            width: 500px;
+            background-image: url(dormir\ bieen.jpg);
+            float: none;
+            background-repeat: no-repeat;
                                         
                                         
-                                        }            
+        }            
 
-                                        .img12{
-                                            height: 260px;
-                                            width: 500px;
-                                            background-image: url(meditacion.jpg);
-                                            float: none;
-                                                 background-repeat: no-repeat;
+.img12{
+            height: 260px;
+            width: 500px;
+            background-image: url(meditacion.jpg);
+            float: none;
+            background-repeat: no-repeat;
                                             
                                             
-                                            }     
+        }     
                                             
-                                            .img13{
-                                                height: 270px;
-                                                width: 500px;
-                                                background-image: url(evitar\ consumo\ de\ alcohol\ y\ tabaco.jpg);
-                                                float: none;
-                                                     background-repeat: no-repeat;
+.img13{
+            height: 270px;
+            width: 500px;
+            background-image: url(evitar\ consumo\ de\ alcohol\ y\ tabaco.jpg);
+            float: none;
+            background-repeat: no-repeat;
                                                 
                                                 
-                                                }     
+        }     
                                                 
-                                                .img14{
-                                                    height: 340px;
-                                                    width: 500px;
-                                                    background-image: url(mantener\ una\ buena\ higiene\ personal.jpg);
-                                                    float: none;
-                                                         background-repeat: no-repeat;
+.img14{
+            height: 340px;
+            width: 500px;
+            background-image: url(mantener\ una\ buena\ higiene\ personal.jpg);
+            float: none;
+            background-repeat: no-repeat;
                                                     
                                                     
-                                                    }    
+        }    
                                                     
-                                                    .img15{
-                                                        height: 210px;
-                                                        width: 500px;
-                                                        background-image: url(controlar\ tiempo\ frente\ pantallas.jpg);
-                                                        float: none;
-                                                             background-repeat: no-repeat;
+.img15{
+            height: 210px;
+            width: 500px;
+            background-image: url(controlar\ tiempo\ frente\ pantallas.jpg);
+            float: none;
+            background-repeat: no-repeat;
                                                         
                                                         
-                                                        }            
-
-                                                        .img16{
-                                                            height: 300px;
-                                                            width: 500px;
-                                                            background-image: url(chequeo\ medico.jpg);
-                                                            float: none;
-                                                                 background-repeat: no-repeat;
+        }           
+        
+.img16{
+            height: 300px;
+            width: 500px;
+            background-image: url(chequeo\ medico.jpg);
+            float: none;
+            background-repeat: no-repeat;
                                                             
                                                             
-                                                            }            
+        }            
 
-                                                            .img17{
-                                                                height: 300px;
-                                                                width: 500px;
-                                                                background-image: url(socializar.jpg);
-                                                                float: none;
-                                                                     background-repeat: no-repeat;
+.img17{
+            height: 300px;
+            width: 500px;
+            background-image: url(socializar.jpg);
+            float: none;
+            background-repeat: no-repeat;
                                                                 
                                                                 
-                                                                }            
+        }            
 
-                                                                .img18{
-                                                                    height: 300px;
-                                                                    width: 600px;
-                                                                    background-image: url(actividades\ creativas.jpg);
-                                                                    float: none;
-                                                                         background-repeat: no-repeat;
+.img18{
+            height: 300px;
+            width: 600px;
+            background-image: url(actividades\ creativas.jpg);
+            float: none;
+            background-repeat: no-repeat;
                                                                     
                                                                     
-                                                                    }            
+        }            
 
-                                                                    .img19{
-                                                                        height: 280px;
-                                                                        width: 500px;
-                                                                        background-image: url(manejo.jpg);
-                                                                        float: none;
-                                                                             background-repeat: no-repeat;
+.img19{
+            height: 280px;
+            width: 500px;
+            background-image: url(manejo.jpg);
+            float: none;
+            background-repeat: no-repeat;
                                                                         
                                                                         
-                                                                        }            
-                
-            
+        } 
+
+        .img20{
+            height: 300px;
+            width: 700px;
+            background-image: url(Consumo\ excesivo\ de\ alimentos\ procesados\ y\ azúcares.jpg);
+            float: none;
+            background-repeat: no-repeat;
+                                                                        
+                                                                        
+        }
+        
+        .img21{
+            height: 170px;
+            width: 700px;
+            background-image: url(sedentarismo.jpg);
+            float: none;
+            background-repeat: no-repeat;
+                                                                        
+                                                                        
+        }
+
+        .img22{
+            height: 375px;
+            width: 500px;
+            background-image: url(privacion\ del\ sueño.jpg);
+            float: none;
+            background-repeat: no-repeat;
+                                                                        
+                                                                        
+        }
+
+        .img23{
+            height: 190px;
+            width: 500px;
+            background-image: url(Consumo\ de\ alcohol\ en\ exceso.jpg);
+            float: none;
+            background-repeat: no-repeat;
+                                                                        
+                                                                        
+        }
+
+        .img24{
+            height: 250px;
+            width: 600px;
+            background-image: url(fumar.jpg);
+            float: none;
+            background-repeat: no-repeat;
+                                                                        
+                                                                        
+        }
+
+        .img25{
+            height: 280px;
+            width: 500px;
+            background-image: url(saltarse\ comidas.png);
+            float: none;
+            background-repeat: no-repeat;
+                                                                        
+                                                                        
+        }
+
+        .img26{
+            height: 180px;
+            width: 500px;
+            background-image: url(comer\ en\ exceso.jpg);
+            float: none;
+            background-repeat: no-repeat;
+                                                                        
+                                                                        
+        }
+
+        .img27{
+            height: 210px;
+            width: 500px;
+            background-image: url(Abuso\ de\ cafeína.jpg);
+            float: none;
+            background-repeat: no-repeat;
+                                                                        
+                                                                        
+        }
+
+        .img28{
+            height: 280px;
+            width: 500px;
+            background-image: url(Mala\ postura.jpg);
+            float: none;
+            background-repeat: no-repeat;
+                                                                        
+                                                                        
+        }
+
+        .img29{
+            height: 280px;
+            width: 500px;
+            background-image: url(Automedicación.jpg);
+            float: none;
+            background-repeat: no-repeat;
+                                                                        
+                                                                        
+        }
+
+        .img30{
+            height: 210px;
+            width: 500px;
+            background-image: url(Uso\ excesivo\ de\ dispositivos\ electrónicos.jpg);
+            float: none;
+            background-repeat: no-repeat;
+                                                                        
+                                                                        
+        }
+
+        .img31{
+            height: 210px;
+            width: 500px;
+            background-image: url(Negación\ de\ problemas\ de\ salud\ mental.jpg);
+            float: none;
+            background-repeat: no-repeat;
+                                                                        
+                                                                        
+        }
         
