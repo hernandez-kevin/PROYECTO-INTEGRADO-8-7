@@ -13,8 +13,8 @@
      
 }
 body{
-    background-image: url("ocean.jpg");
-    background-repeat: no-repeat; 
+    background-image: url("marmol.jpg");
+   
 }
 .titulo1{
 font-size: 65px;
@@ -60,14 +60,166 @@ font-family: Georgia, 'Times New Roman', Times, serif;
         
         
         }
+   
+.img4{
+        height: 250px;
+        width: 500px;
+        background-image: url(configuracion\ electronica\ caja\ o\ celda.jpg);
+        float: none;
+        background-repeat: no-repeat;
+            
+            
+        }
 
-        .img4{
-            height: 250px;
+.img5{
+            height: 350px;
             width: 500px;
-            background-image: url(configuracion\ electronica\ caja\ o\ celda.jpg);
+            background-image: url(trastorno\ de\ alimentacion.jpg);
             float: none;
             background-repeat: no-repeat;
+                
+                
+        }
+
+.img6{
+            height: 350px;
+            width: 500px;
+            background-image: url(ANOREXIA.jpg);
+            float: none;
+            background-repeat: no-repeat;
+                    
+                    
+        }   
+
+.img7{
+            height: 250px;
+            width: 500px;
+            background-image: url(bulimiaa.jpg);
+            float: none;
+            background-repeat: no-repeat;
+                        
+                        
+        }            
+
+.img8{
+            height: 350px;
+            width: 500px;
+            background-image: url(ali\ equilibrada.jpg);
+            float: none;
+            background-repeat: no-repeat;
+                            
+                            
+        }            
+
+.img9{
+            height: 400px;
+            width: 600px;
+            background-image: url(Hidratacion\ adecuadaa.jpg);
+            float: none;
+            background-repeat: no-repeat;
+                                
+                                
+        }         
+                                
+.img10{
+            height: 320px;
+            width: 500px;
+            background-image: url(ejercicio\ regular.jpg);
+            float: none;
+            background-repeat: no-repeat;
+                                    
+                                    
+        }    
+                                    
+                                    .img11{
+                                        height: 320px;
+                                        width: 500px;
+                                        background-image: url(dormir\ bieen.jpg);
+                                        float: none;
+                                             background-repeat: no-repeat;
+                                        
+                                        
+                                        }            
+
+                                        .img12{
+                                            height: 260px;
+                                            width: 500px;
+                                            background-image: url(meditacion.jpg);
+                                            float: none;
+                                                 background-repeat: no-repeat;
+                                            
+                                            
+                                            }     
+                                            
+                                            .img13{
+                                                height: 270px;
+                                                width: 500px;
+                                                background-image: url(evitar\ consumo\ de\ alcohol\ y\ tabaco.jpg);
+                                                float: none;
+                                                     background-repeat: no-repeat;
+                                                
+                                                
+                                                }     
+                                                
+                                                .img14{
+                                                    height: 340px;
+                                                    width: 500px;
+                                                    background-image: url(mantener\ una\ buena\ higiene\ personal.jpg);
+                                                    float: none;
+                                                         background-repeat: no-repeat;
+                                                    
+                                                    
+                                                    }    
+                                                    
+                                                    .img15{
+                                                        height: 210px;
+                                                        width: 500px;
+                                                        background-image: url(controlar\ tiempo\ frente\ pantallas.jpg);
+                                                        float: none;
+                                                             background-repeat: no-repeat;
+                                                        
+                                                        
+                                                        }            
+
+                                                        .img16{
+                                                            height: 300px;
+                                                            width: 500px;
+                                                            background-image: url(chequeo\ medico.jpg);
+                                                            float: none;
+                                                                 background-repeat: no-repeat;
+                                                            
+                                                            
+                                                            }            
+
+                                                            .img17{
+                                                                height: 300px;
+                                                                width: 500px;
+                                                                background-image: url(socializar.jpg);
+                                                                float: none;
+                                                                     background-repeat: no-repeat;
+                                                                
+                                                                
+                                                                }            
+
+                                                                .img18{
+                                                                    height: 300px;
+                                                                    width: 600px;
+                                                                    background-image: url(actividades\ creativas.jpg);
+                                                                    float: none;
+                                                                         background-repeat: no-repeat;
+                                                                    
+                                                                    
+                                                                    }            
+
+                                                                    .img19{
+                                                                        height: 280px;
+                                                                        width: 500px;
+                                                                        background-image: url(manejo.jpg);
+                                                                        float: none;
+                                                                             background-repeat: no-repeat;
+                                                                        
+                                                                        
+                                                                        }            
+                
             
-            
-            }
-    
+        
