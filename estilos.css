@@ -13,7 +13,7 @@
      
 }
 body{
-    background-image: url("marmol.jpg");
+    background-image: url("fondoop.jpg");
    
 }
 .titulo1{
@@ -25,11 +25,11 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .img1{
-height: 300px;
+height: 260px;
 width: 300px;
-background-image: url(ocean.jpg);
-float: left;
-
+background-image: url(Componentes\ de\ un\ circuito\ eléctrico.jpg);
+float: none;
+background-repeat: no-repeat;
 
 }
 
@@ -335,6 +335,178 @@ font-family: Georgia, 'Times New Roman', Times, serif;
             height: 210px;
             width: 500px;
             background-image: url(Negación\ de\ problemas\ de\ salud\ mental.jpg);
+            float: none;
+            background-repeat: no-repeat;
+                                                                        
+                                                                        
+        }
+
+        .img32{
+            height: 210px;
+            width: 500px;
+            background-image: url(simbolos.jpg);
+            float: none;
+            background-repeat: no-repeat;
+                                                                        
+                                                                        
+        }
+
+        .img33{
+            height: 310px;
+            width: 500px;
+            background-image: url(tipos\ de\ circuitos.jpg);
+            float: none;
+            background-repeat: no-repeat;
+                                                                        
+                                                                        
+        }
+
+        .img34{
+            height: 490px;
+            width: 500px;
+            background-image: url(cerrado\ y\ abierto.jpg);
+            float: none;
+            background-repeat: no-repeat;
+                                                                        
+                                                                        
+        }
+
+        .img35{
+            height: 240px;
+            width: 500px;
+            background-image: url(serie.jpg);
+            float: none;
+            background-repeat: no-repeat;
+                                                                        
+                                                                        
+        }
+
+        .img36{
+            height: 210px;
+            width: 500px;
+            background-image: url(lamparas\ en\ serie.jpg);
+            float: none;
+            background-repeat: no-repeat;
+                                                                        
+                                                                        
+        }
+
+        .img37{
+            height: 150px;
+            width: 500px;
+            background-image: url(circuito\ en\ paralelo.jpg);
+            float: none;
+            background-repeat: no-repeat;
+                                                                        
+                                                                        
+        }
+
+        .img38{
+            height: 270px;
+            width: 500px;
+            background-image: url(lamparas\ en\ paralelo.jpg);
+            float: none;
+            background-repeat: no-repeat;
+                                                                        
+                                                                        
+        }
+
+        .img39{
+            height: 200px;
+            width: 500px;
+            background-image: url(serie\ y\ paralelo.jpg);
+            float: none;
+            background-repeat: no-repeat;
+                                                                        
+                                                                        
+        }
+
+        .img40{
+            height: 300px;
+            width: 500px;
+            background-image: url(mixto.jpg);
+            float: none;
+            background-repeat: no-repeat;
+                                                                        
+                                                                        
+        }
+
+        .img41{
+            height: 400px;
+            width: 500px;
+            background-image: url(alterna.jpg);
+            float: none;
+            background-repeat: no-repeat;
+                                                                        
+                                                                        
+        }
+
+        .img42{
+            height: 270px;
+            width: 500px;
+            background-image: url(CORTO\ CIRCUITO.jpg);
+            float: none;
+            background-repeat: no-repeat;
+                                                                        
+                                                                        
+        }
+
+        .subtitulo2{
+
+            font-size: 25px;
+            color: black;
+            text-align: left;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+
+
+        }
+
+        .img43{
+            height: 350px;
+            width: 500px;
+            background-image: url(ciclo\ menstrual.jpg);
+            float: none;
+            background-repeat: no-repeat;
+                                                                        
+                                                                        
+        }
+
+        .img44{
+            height: 240px;
+            width: 500px;
+            background-image: url(PRIMER\ FASE\ DEL\ CICLO\ MENSTRUAL.jpg);
+            float: none;
+            background-repeat: no-repeat;
+                                                                        
+                                                                        
+        }
+
+        .img45{
+            height: 300px;
+            width: 500px;
+            background-image: url(SEGUNDA\ FASE\ DEL\ CICLO\ MENSTRUAL.jpg);
+            float: none;
+            background-repeat: no-repeat;
+                                                                        
+                                                                        
+        }
+
+        .img46{
+            height: 260px;
+            width: 700px;
+            background-image: url(TERCERA\ FASE\ DEL\ CICLO\ MENSTRUAL.jpg);
+            float: none;
+            background-repeat: no-repeat;
+                                                                        
+                                                                        
+        }
+
+        .img47{
+            height: 230px;
+            width: 500px;
+            background-image: url(CUARTA\ FASE\ DEL\ CICLO\ MENSTRUAL.jpg);
             float: none;
             background-repeat: no-repeat;
                                                                         
