@@ -514,9 +514,69 @@ font-family: Georgia, 'Times New Roman', Times, serif;
         }
 
         .img48{
-            height: 230px;
-            width: 500px;
+            height: 400px;
+            width: 600px;
             background-image: url(excel.jpg);
+            float: none;
+            background-repeat: no-repeat;
+                                                                        
+                                                                        
+        }
+
+        .img49{
+            height: 250px;
+            width: 600px;
+            background-image: url(excel\ 3.jpg);
+            float: none;
+            background-repeat: no-repeat;
+                                                                        
+                                                                        
+        }
+
+        .img50{
+            height: 250px;
+            width: 700px;
+            background-image: url(excel\ 2.jpg);
+            float: none;
+            background-repeat: no-repeat;
+                                                                        
+                                                                        
+        }
+
+        .img51{
+            height: 250px;
+            width: 700px;
+            background-image: url(excel\ 6.jpg);
+            float: none;
+            background-repeat: no-repeat;
+                                                                        
+                                                                        
+        }
+
+        .img52{
+            height: 340px;
+            width: 700px;
+            background-image: url(excel\ 4.jpg);
+            float: none;
+            background-repeat: no-repeat;
+                                                                        
+                                                                        
+        }
+
+        .img53{
+            height: 240px;
+            width: 700px;
+            background-image: url(excel\ 5.jpg);
+            float: none;
+            background-repeat: no-repeat;
+                                                                        
+                                                                        
+        }
+
+        .img54{
+            height: 340px;
+            width: 700px;
+            background-image: url(excel\ 7.jpg);
             float: none;
             background-repeat: no-repeat;
                                                                         

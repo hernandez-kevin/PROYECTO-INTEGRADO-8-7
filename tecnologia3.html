@@ -88,31 +88,109 @@
 
     <div  class="subtitulo">1 CONCATENAR</div> <br> 
 Si bien la palabra concatenar puede sonar muy elaborada, se trata de una función que, en esencia, te permite combinar datos en una sola celda. Digamos por ejemplo que tienes un nombre y un apellido en las celdas A1 y A2 respectivamente. Entonces, puedes ingresar =CONCATENAR(A1,“ ”,A2), lo cual combinará los nombres en una sola celda con las comillas (“ ”) añadiendo un espacio al medio.<br>
+Otra función importante, es aquella que nos ayuda a concatenar los textos que le indiquen como parámetros. <br>
+Se utiliza de la siguiente forma: CONCATENAR (texto_1, texto_2, texto_3, …) <br>
+
+Los parámetros pueden ser cadenas de texto, referencias a celdas o números. <br>
+También se puede hacer uso del símbolo «&» en lugar de la palabra «CONCATENAR». <br> <br>
+
+<div class="img49"></div><br>
+
 <div  class="subtitulo">2.- MAX y MIN</div> <br> 
-Estas son funciones bastante simples que te ofrecen los valores máximos y mínimos. Solo debes ingresar en la columna o fila con números que quieres buscar y te dará como resultado el MAX o MIN dependiendo de la que utilices. Por ejemplo, =MAX(A1:A10) te mostrará el máximo valor numérico en aquellas filas.<br>
+Estas son funciones bastante simples que te ofrecen los valores máximos y mínimos. Solo debes ingresar en la columna o fila con números que quieres buscar y te dará como resultado el MAX o MIN dependiendo de la que utilices. Por ejemplo, =MAX(A1:A10) te mostrará el máximo valor numérico en aquellas filas.<br><br>
+
 <div  class="subtitulo">3.- NOMPROPIO</div> <br> 
-Esta función es muy útil cuando un conjunto de datos tiene mucho texto en formato extraño que luce mezclado con mayúsculas en posiciones incorrectas. Por ejemplo, la celda A1 podría mostrar el texto: lisTa De estudiaNteS. En ese caso, podrías ingresar =NOMPROPIO(A1), lo cual lo cambiaría inmediatamente a Lista de Estudiantes.<br>
+Esta función es muy útil cuando un conjunto de datos tiene mucho texto en formato extraño que luce mezclado con mayúsculas en posiciones incorrectas. Por ejemplo, la celda A1 podría mostrar el texto: lisTa De estudiaNteS. En ese caso, podrías ingresar =NOMPROPIO(A1), lo cual lo cambiaría inmediatamente a Lista de Estudiantes.<br><br>
+
 <div  class="subtitulo"> 4.- INDICE + COINCIDIR</div> <br>
 Esta es una de las combinaciones de funciones más utilizadas en Excel cuando se trata de realizar búsquedas. Cuando se usan en combinación, INDICE y COINCIDIR te permiten extraer valores de un gran conjunto de datos de forma precisa.<br>
-El orden que debes seguir es el siguiente: =INDICE(lista de valores, COINCIDIR(lo que deseas buscar, columna, identificador de orden)). De esta forma, te es posible buscar en toda la hoja de cálculos.<br>
+El orden que debes seguir es el siguiente: =INDICE(lista de valores, COINCIDIR(lo que deseas buscar, columna, identificador de orden)). De esta forma, te es posible buscar en toda la hoja de cálculos.<br> <br>
+
 <div  class="subtitulo">5.- BUSCAR y HALLAR</div> <br>
 Estas son dos de las funciones importantes en Excel cuando se necesita aislar texto específico dentro de un conjunto de datos. Ambos se encuentran listados aquí porque =BUSCAR te da como resultado una coincidencia exacta. Por ejemplo, si usas =BUSCAR e ingresas la palabra Promedio, solo obtendrás la palabra en exactamente las mismas condiciones en las que la escribiste: Promedio.<br>
 Con =HALLAR ocurre algo diferente. Si ingresas Promedio con esta función, los resultados que obtengas pueden ser Promedio o promedio, lo cual hace que el rango sea un poco más amplio. Ambas funciones te serán particularmente útiles cuando busques anomalías en un conjunto de datos.
-Te puede interesar: ¿Por qué es importante Excel? 5 razones para aprenderlo<br>
+Te puede interesar: ¿Por qué es importante Excel? 5 razones para aprenderlo<br> <br>
+
 <div  class="subtitulo">6.- BUSCARV</div> <br>
-Y ya que hablamos de funciones de búsqueda, es necesario mencionar BUSCARV. Tiene una utilidad similar a INDICE + COINCIDIR, pero solo te permite examinar y devolver un valor correspondiente de otra columna de forma horizontal (izquierda a derecha).<br>
+Se emplea para realizar búsquedas en una matriz de datos. La función busca un valor dado en la primera columna de la matriz, y devuelve el valor ubicado en la misma fila de la columna indicada como parte de los parámetros.<br>
+La letra «V» del nombre de la función se refiere a «Vertical».<br>
+Su sintaxis es:)<br>
+•	Valor_buscado: indica el valor que se buscará en la primera columna de la matriz de datos. Este puede ser un valor específico, una cadena de texto o una referencia.<br>
+•	Matriz_datos es la tabla de datos donde se realizará la búsqueda.  <br>
+•	Indicador_de_columna indica el número de la columna de la matriz_datos de la que se tomará el valor a devolver.<br>
+•	Ordenado se emplea para indicar si se desea que la función busque un valor aproximado o exacto. Para un valor aproximado se debe indicar «VERDADERO», y si se desea una coincidencia exacta «FALSO».<br>
+Ejemplo: BUSCARV(210, A2:C15, 2, FALSO) buscará 162 en la columna A de la tabla, y devolverá el valor de la columna B que se halle en la misma fila de la coincidencia de la búsqueda.<br> <br>
+
 <div  class="subtitulo">7.- Comparaciones con SI</div> <br>
-Esta te permite obtener un resultado con valores ciertos o falsos, por lo que se trata de una de las funciones lógicas de Excel. Un ejemplo nos permitirá explicarlo de mejor forma. Un profesor que necesita colocar las notas de un grupo de alumnos, puede utilizar la función SI para determinar, en base a las calificaciones, quiénes se encuentran aprobados y quiénes reprobaron.<br>
+Esta te permite obtener un resultado con valores ciertos o falsos, por lo que se trata de una de las funciones lógicas de Excel. Un ejemplo nos permitirá explicarlo de mejor forma. Un profesor que necesita colocar las notas de un grupo de alumnos, puede utilizar la función SI para determinar, en base a las calificaciones, quiénes se encuentran aprobados y quiénes reprobaron. <br>
+Esta función evalúa si la condición indicada es verdadera o no, y muestra un resultado u otro de acuerdo a lo que arroje la evaluación. <br>
+Su sintaxis es =SI(condición lógica, «Valor si es verdadera», «Valor si es falsa») <br>
+Ejemplo: asumamos que en la celda A5 de tu Excel tienes el valor 5, y aplicas la función SI(A5>10,1,0). Como resultado obtendrás 0. <br> <br>
+
+<div class="img51"></div> <br>
+
 <div  class="subtitulo">8.- Y</div> <br>
-Esta es otra función lógica de Excel que se encarga de revisar si determinados argumentos son ciertos o falsos. Por ejemplo, =Y(A1”BIEN”,B2>10) dará como resultado VERDADERO si es que A1 es BIEN y el valor de B2 ES MAYOR QUE 10. También es posible revisar más valores si los añades con una coma.<br>
+Esta es otra función lógica de Excel que se encarga de revisar si determinados argumentos son ciertos o falsos. Por ejemplo, =Y(A1”BIEN”,B2>10) dará como resultado VERDADERO si es que A1 es BIEN y el valor de B2 ES MAYOR QUE 10. También es posible revisar más valores si los añades con una coma.<br><br>
+
 <div  class="subtitulo">9.- LARGO</div> <br>
-Esta función te brinda rápidamente el número de caracteres en una celda determinada. LARGO es especialmente útil cuando se intenta determinar las diferencias entre identificadores únicos, los cuales son bastante extensos y no se encuentran en orden. Para utilizarla, simplemente debes ingresar =LARGO(seleccionar celda).<br>
-<div  class="subtitulo">10.- SUMA, CONTAR, PROMEDIO</div> <br>
-Terminaremos la lista con tres de las funciones más básicas de Excel. Como su nombre sugiere, SUMA te permite sumar cualquier número de columnas o filas al seleccionarlas o escribir en ellas. Por ejemplo, ingresar =SUMA(A1:A8) sumaría todos los valores entre las celdas A1 y A8.<br> <br>
+Esta función te brinda rápidamente el número de caracteres en una celda determinada. LARGO es especialmente útil cuando se intenta determinar las diferencias entre identificadores únicos, los cuales son bastante extensos y no se encuentran en orden. Para utilizarla, simplemente debes ingresar =LARGO(seleccionar celda).<br><br>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/j8dCm_4Zaic?si=J79Ep9MAKU08NVBL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> <br>
+<div  class="subtitulo">10.- SUMA</div> <br>
+Terminaremos la lista con tres de las funciones más básicas de Excel. Como su nombre sugiere, SUMA te permite sumar cualquier número de columnas o filas al seleccionarlas o escribir en ellas. Por ejemplo, ingresar =SUMA(A1:A8) sumaría todos los valores entre las celdas A1 y A8.
+Suma algunos valores si cumplen con la condición indicada. <br>
+La sintaxis: SUMAR.SI(rango_validar, criterio, rango_de_suma) <br>
+•	Rango_validar especifica el rango de celdas que se evaluarán. <br>
+•	Criterio es la condición que deben cumplir las celdas para ser sumadas. Puede ser una expresión, texto o número. <br>
+•	Rango_de_suma señala las celdas que se sumarán. <br> <br>
 
-<div class="img48"></div>
+<div class="img50"></div> <br>
+
+Ejemplo: =SUMAR.SI(A2:A4, «>150», B2:B4) Suma únicamente las comisiones de las ventas mayores a 150. <br> <br>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/j8dCm_4Zaic?si=J79Ep9MAKU08NVBL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> <br> <br>
+
+<div class="img48"></div><br>
+
+Excel es uno de los programas más utilizado a nivel mundial y seguro debes saber que esta hoja de cálculo facilita la ejecución de muchas tareas en diversas áreas, tanto laborales como de estudio. <br> <br>
+
+<div  class="subtitulo">Función CONTAR.SI</div> <br>
+Se encarga de contar las celdas del rango indicado, que no estén en blanco y que cumplan con el criterio indicado. <br>
+Sintaxis: CONTAR.SI(rango_de_celdas; criterio) <br>
+•	Rango_de_celdas indica el rango al cual pertenecen las celdas a contar. <br>
+•	Criterio es la condición que deben cumplir las celdas para ser contadas.    Puede expresarse como un número, texto o expresión. <br>
+Ejemplo: CONTAR.SI (A2:A6,»automóvil») Arroja como resultado el número de celdas de la columna A que contienen la palabra «automóvil». <br> <br>
+
+<div class="img52"></div><br> <br>
+
+<div  class="subtitulo">Función HOY</div> <br>
+Muestra como resultado la fecha actual. <br>
+Solo debes escribir en una celda de Excel: «=Hoy()» y obtendrás el resultado correspondiente al día actual en formato de fecha. <br> <br>
+
+<div  class="subtitulo">Función EXTRAE </div> <br>
+Devuelve los caracteres de una cadena de acuerdo a lo indicado en los parámetros. <br>
+Sintaxis: EXTRAE(texto; posición_de_inicio; cant_de_caracteres) <br>
+•	Texto es la cadena que contiene los caracteres a extraer. <br>
+•	Posición_de_inicio indica la posición del primer carácter a extraer del texto. <br>
+•	Cant_de_caracteres señala la cantidad de caracteres que deseas que la función devuelva. <br>
+Ejemplo: supongamos que la celda A3 de tu hoja de Excel contiene el RFC XXXA050698A30, y que aplicas la función como sigue =EXTRAE(A3,5,6). El resultado será «050698». <br> <br>
+
+<div class="img53"></div><br>
+
+<div  class="subtitulo">Función TEXTO</div> <br>
+Se encarga de convertir un valor determinado en texto, y le aplica un formato numérico dado. <br>
+La sintaxis es: TEXTO(valor, formato) <br>
+•	Valor indica el valor numérico, una fórmula o la referencia a una celda. <br>
+•	Formato señala el formato de número a aplicar. <br>
+Ejemplo: supongamos que en la celda B4 tienes el valor 25400, y utilizas =TEXTO(B4,»$ 0.00″) el resultado será $25400.00. <br> <br>
+
+<div  class="subtitulo">FUNCION CONTARA</div> <br>
+Realiza el conteo de celdas que no estén vacías en un rango indicado. Estas pueden contener número, texto, formulas o un mensaje de error. <br>
+Su sintaxis: CONTARA(valor1, valor2) <br>
+Ejemplo: = CONTARA(A2, D10) te indicará el número de celdas que no están vacías entre A2 y D10. <br> <br>
+
+<div class="img54"></div><br>
+
+<iframe src="https://drive.google.com/file/d/1dCd09jtd50ygNpA1j98iTF0S7IrqgakU/preview" width="500" height="80" allow="autoplay"></iframe> <br>
 
 </div>
        
