@@ -512,4 +512,14 @@ font-family: Georgia, 'Times New Roman', Times, serif;
                                                                         
                                                                         
         }
+
+        .img48{
+            height: 230px;
+            width: 500px;
+            background-image: url(excel.jpg);
+            float: none;
+            background-repeat: no-repeat;
+                                                                        
+                                                                        
+        }
         
